@@ -1,0 +1,56 @@
+.intro{
+background-color: gray;
+color: black;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ position: fixed;
+ top: 0px;
+ left: 0px;
+ right: 0px;
+ height: 50px;
+ border-bottom-width: 1px;;
+ border-bottom-style: solid;
+ border-bottom-color: gray
+}
+.introMid{
+  margin-left: 100px;
+}
+.introImage{
+  height: 54px;
+  width: 110px;  
+}
+
+.gameAndSidebar{
+  display: grid;
+  grid-template-columns: 100px 500px;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  width: 600px;
+  padding-top: 50px;
+ 
+}
+
+.Grid{
+  display: grid;
+  background-color: black;
+  
+  
+}
+.sidebar{
+ background-color: blue;
+ 
+}
+.paragraph-sidebar{
+  align-items: center;
+  justify-content: center;
+}
+.hotkey{
+  margin-left: 5px;
+}
+.Reset-Play-Grid{
+  display: flex;
+  height: 40px;
+  justify-content: space-align;  
+  background-color: black;
+}
